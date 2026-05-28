@@ -17,7 +17,7 @@ import type {
 import { AlphaSmokeProvider } from "./provider.js";
 
 const PLUGIN_NAME = "security-deploy-alpha";
-const PLUGIN_VERSION = "2026.528.1";
+const PLUGIN_VERSION = "2026.528.2";
 
 export const createPlugin: VibePluginFactory = (_ctx: ProfileContext): VibePlugin => {
   const provider = new AlphaSmokeProvider();
@@ -41,7 +41,7 @@ export const createPlugin: VibePluginFactory = (_ctx: ProfileContext): VibePlugi
     name: PLUGIN_NAME,
     version: PLUGIN_VERSION,
     description:
-      "Pure-JS smoke checks (TLS, security headers, /healthz auth-challenge) for the deploy.alpha lifecycle stage. Wave 2 scaffold.",
+      "Pure-JS smoke checks (TLS, security headers, /healthz auth-challenge) for the deploy.alpha lifecycle stage.",
     tags: ["backend", "provider", "integration"],
     capabilities: {
       storage: "rw",
