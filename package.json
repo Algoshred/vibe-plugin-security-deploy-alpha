@@ -4,7 +4,7 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "description": "Pure-JS smoke checks against alpha-environment URLs \u2014 TLS validity, presence of HSTS / X-Content-Type-Options / CSP, and an auth-challenge probe on /healthz. Registers as a security.release provider with @vibecontrols/vibe-plugin-security.",
+  "description": "Pure-JS smoke checks against alpha-environment URLs — TLS validity, presence of HSTS / X-Content-Type-Options / CSP, and an auth-challenge probe on /healthz. Registers as a security.release provider with @vibecontrols/vibe-plugin-security.",
   "engines": {
     "bun": ">=1.4.4"
   },
