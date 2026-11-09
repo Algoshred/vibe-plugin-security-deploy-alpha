@@ -129,6 +129,7 @@ export class AlphaSmokeProvider implements SecurityProvider {
       const total = urls.length;
       for (let i = 0; i < urls.length; i++) {
         const url = urls[i];
+        if (url === undefined) continue;
         const pct = Math.floor(10 + ((i + 1) / total) * 80);
         input.onProgress?.({ pct, message: `Probing ${url}` });
 
